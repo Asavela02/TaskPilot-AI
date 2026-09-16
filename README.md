@@ -17,14 +17,14 @@ The application provides a centralised workspace where users can generate profes
 
 -**React 18.3.1**
 -**Vite 6.0.5** 
--**JavaScript (ES Modules) **
+-**JavaScript (ES Modules)**
 -**React DOM**
 -**Lucide React** 
 
 
 ## Installation
 
--**cd ai-workplace-hub
--**npm install
--**npm run dev
+-**cd ai-workplace-hub**
+-**npm install**
+-**npm run dev**
 
