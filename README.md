@@ -1,52 +1,27 @@
-# AI Workplace Hub
+TaskPilot – AI Workplace Productivity Assistant
 
-Build a modern, responsive web application called AI Workplace Productivity Assistant that helps professionals automate workplace tasks using AI.
+TaskPilot is an AI-powered productivity application designed to help users automate repetitive workplace tasks, save time, and manage their daily work more efficiently.
+The application provides a centralised workspace where users can generate professional emails, summarise meeting notes, create task plans, conduct research, and interact with an AI assistant.
 
-The application should include:
-
-Smart Email Generator
-
-Meeting Notes Summarizer
-
-AI Task Planner
-
-AI Research Assistant
-
-AI Chatbot Interface
-
-Requirements:
-
-Modern dashboard UI
-
-Sidebar navigation
-
-Responsive design
-
-Structured AI prompts
-
-Editable AI outputs
-
+Features
+Dashboard Layout
+Sidebar Navigation
+Responsive Design (mobile + desktop)
+Input & Output Sections
+AI-generated responses
+Professional UI/UX
 Responsible AI disclaimer
 
-Design style should be clean, modern, and professional similar to a SaaS platform.
+Technologies Used
+React 18.3.1
+Vite 6.0.5 
+JavaScript (ES Modules) 
+React DOM 
+Lucide React 
 
-This project was built with [Lovable](https://lovable.dev).
 
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/1d447a2e-3ffd-4554-9629-21362238e93d).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+Installation
+cd ai-workplace-hub
+npm install
 npm run dev
-```
+
