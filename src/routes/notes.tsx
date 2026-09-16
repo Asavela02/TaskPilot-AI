@@ -7,7 +7,7 @@ import { ToolWorkspace } from "@/components/ToolWorkspace";
 export const Route = createFileRoute("/notes")({
   head: () => ({
     meta: [
-      { title: "Meeting Notes Summarizer — Workplace AI" },
+      { title: "Meeting Notes Summarizer — TaskPilot" },
       {
         name: "description",
         content: "Turn messy meeting notes or transcripts into decisions, action items and owners.",

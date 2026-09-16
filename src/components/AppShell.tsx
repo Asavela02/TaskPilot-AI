@@ -59,7 +59,7 @@ function SidebarInner({ onNavigate }: { onNavigate?: (() => void) | undefined })
         </span>
         <span className="leading-tight">
           <span className="block text-sm font-semibold text-sidebar-accent-foreground">
-            Workplace AI
+            TaskPilot
           </span>
           <span className="block text-xs text-sidebar-foreground/60">Productivity Assistant</span>
         </span>
@@ -94,7 +94,7 @@ export function AppShell({ children }: { children: ReactNode }) {
               <SidebarInner onNavigate={() => setOpen(false)} />
             </SheetContent>
           </Sheet>
-          <span className="text-sm font-semibold">Workplace AI</span>
+          <span className="text-sm font-semibold">TaskPilot</span>
         </header>
 
         <main className="mx-auto w-full max-w-5xl px-4 py-6 sm:px-6 lg:py-10">{children}</main>
