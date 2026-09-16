@@ -8,13 +8,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "AI Workplace Productivity Assistant — Dashboard" },
+      { title: "TaskPilot — Dashboard" },
       {
         name: "description",
         content:
           "Automate workplace tasks with AI: draft emails, summarize meeting notes, plan tasks, research topics and chat with an assistant.",
       },
-      { property: "og:title", content: "AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "TaskPilot" },
       {
         property: "og:description",
         content: "Draft emails, summarize meetings, plan tasks and research faster with AI.",
@@ -66,7 +66,7 @@ function Dashboard() {
             <Sparkles className="size-3.5" /> Powered by Lovable AI
           </span>
           <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
-            AI Workplace Productivity Assistant
+            TaskPilot
           </h1>
           <p className="mt-3 max-w-2xl text-muted-foreground">
             Five focused assistants that take the busywork out of your day — writing, summarizing,

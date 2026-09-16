@@ -7,7 +7,7 @@ import { ToolWorkspace } from "@/components/ToolWorkspace";
 export const Route = createFileRoute("/research")({
   head: () => ({
     meta: [
-      { title: "AI Research Assistant — Workplace AI" },
+      { title: "AI Research Assistant — TaskPilot" },
       {
         name: "description",
         content: "Get a structured research briefing with key findings, comparisons, risks and open questions.",

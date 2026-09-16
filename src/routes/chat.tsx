@@ -15,7 +15,7 @@ import { chatAssistant } from "@/lib/ai.functions";
 export const Route = createFileRoute("/chat")({
   head: () => ({
     meta: [
-      { title: "AI Assistant Chat — Workplace AI" },
+      { title: "AI Assistant Chat — TaskPilot" },
       {
         name: "description",
         content: "Chat with an AI assistant about your work: drafting, planning, prioritizing and problem solving.",
