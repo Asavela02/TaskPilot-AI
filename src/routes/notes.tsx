@@ -36,9 +36,9 @@ function NotesPage() {
         ]}
         buildPrompt={(v) =>
           [
-            `Summarize these meeting notes for: ${v.audience}.`,
-            `Meeting title: ${v.title || "Not stated"}`,
-            `Notes:\n${v.notes}`,
+            `Summarize these meeting notes for: ${v["audience"]}.`,
+            `Meeting title: ${v["title"] || "Not stated"}`,
+            `Notes:\n${v["notes"]}`,
             "Return these sections, in this order:\n1. Overview (2-3 sentences)\n2. Key discussion points (bullets)\n3. Decisions made (bullets)\n4. Action items (bullet per item: task — owner — due date)\n5. Open questions / risks",
           ].join("\n\n")
         }

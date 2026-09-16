@@ -38,10 +38,10 @@ function EmailPage() {
         buildPrompt={(v) =>
           [
             "Write a workplace email.",
-            `Recipient: ${v.recipient}`,
-            `Key points to cover:\n${v.purpose}`,
-            `Tone: ${v.tone}`,
-            `Length: ${v.length}`,
+            `Recipient: ${v["recipient"]}`,
+            `Key points to cover:\n${v["purpose"]}`,
+            `Tone: ${v["tone"]}`,
+            `Length: ${v["length"]}`,
             "Output format:\nSubject: <subject line>\n\n<email body>",
           ].join("\n\n")
         }

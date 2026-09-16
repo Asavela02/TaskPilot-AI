@@ -37,9 +37,9 @@ function ResearchPage() {
         ]}
         buildPrompt={(v) =>
           [
-            `Research topic: ${v.topic}`,
-            `Context: ${v.context || "Not stated"}`,
-            `Depth: ${v.depth}. Preferred format: ${v.format}.`,
+            `Research topic: ${v["topic"]}`,
+            `Context: ${v["context"] || "Not stated"}`,
+            `Depth: ${v["depth"]}. Preferred format: ${v["format"]}.`,
             "Return:\n1. Short answer / bottom line\n2. Key findings\n3. Trade-offs or competing views\n4. Practical recommendations for the stated context\n5. Confidence level and what to verify independently",
           ].join("\n\n")
         }

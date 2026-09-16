@@ -37,9 +37,9 @@ function PlannerPage() {
         ]}
         buildPrompt={(v) =>
           [
-            `Create a ${v.style} plan for this goal: ${v.goal}`,
-            `Timeframe: ${v.timeframe || "Not stated"}`,
-            `Capacity: ${v.capacity || "Not stated"}`,
+            `Create a ${v["style"]} plan for this goal: ${v["goal"]}`,
+            `Timeframe: ${v["timeframe"] || "Not stated"}`,
+            `Capacity: ${v["capacity"] || "Not stated"}`,
             "Return:\n1. Objective restated in one line\n2. The plan, grouped by day/week/column as appropriate, each task with priority (High/Med/Low) and an effort estimate\n3. Dependencies and sequencing notes\n4. Top 3 risks and how to mitigate them",
           ].join("\n\n")
         }
