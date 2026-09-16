@@ -24,7 +24,6 @@ The application provides a centralised workspace where users can generate profes
 
 ## Installation
 
--**cd ai-workplace-hub**
 -**npm install**
 -**npm run dev**
 
